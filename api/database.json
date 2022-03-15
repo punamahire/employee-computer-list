@@ -1,0 +1,30 @@
+{
+    "computers": [
+        {
+            "id": 1,
+            "model": "Macbook Pro",
+            "year": 2015
+        },
+        {
+            "id": 2,
+            "model": "Dell Espiron",
+            "year": 2019
+        }
+    ],
+    "employees": [
+        {
+            "id": 1,
+            "firstName": "Rainu",
+            "lastName": "Ittycheriah",
+            "age": 35,
+            "computerId": 1
+        },
+        {
+            "id": 2,
+            "firstName": "Monica",
+            "lastName": "Kurtz",
+            "age": 38,
+            "computerId": 2   
+        }
+    ]
+}
