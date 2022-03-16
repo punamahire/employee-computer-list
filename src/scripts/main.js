@@ -7,12 +7,14 @@ getComputers()
     const htmlElement = document.querySelector(".computerList");
       let renderHTML = []
       for (let i = 0; i < computerData.length; i++) {
-          renderHTML += `<td>
-                            <div class="employee-info">
-                                <p class="computer-model">Model: ${computerData[i].model}</p>
-                                <p class="computer-year">Year: ${computerData[i].year}</p>
-                            </div>
-                        </td>
+          renderHTML += `<tr>
+                            <td>
+                                <div class="employee-info">
+                                    <p class="computer-model">Model: ${computerData[i].model}</p>
+                                    <p class="computer-year">Year: ${computerData[i].year}</p>
+                                </div>
+                            </td>
+                        </tr>
                         `
                         ;
       }
@@ -26,12 +28,14 @@ getEmployees()
     const htmlElement = document.querySelector(".employeeList");
       let renderHTML = []
       for (let i = 0; i < employeeData.length; i++) {
-          renderHTML += `<td>
-                            <div class="employee-info">
-                                <p class="employee-name">Name: ${employeeData[i].firstName} ${employeeData[i].lastName}</p>
-                                <p class="employee-age">Age: ${employeeData[i].age}</p>
-                            </div>
-                        </td>
+          renderHTML += `<tr>
+                            <td>
+                                <div class="employee-info">
+                                    <p class="employee-name">Name: ${employeeData[i].firstName} ${employeeData[i].lastName}</p>
+                                    <p class="employee-age">Age: ${employeeData[i].age}</p>
+                                </div>
+                            </td>
+                        </tr>
                         `
                         ;
       }
